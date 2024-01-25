@@ -2,9 +2,11 @@ FullStackCourse/
 FullStackCourse_Node/
 Scrimba/
 learn-tailwind/basics/
+challenges/
 /index.html
 /leopardskin.jpg
 /noise.png
 node_modules
 *.rest
 .env
+*.zip
