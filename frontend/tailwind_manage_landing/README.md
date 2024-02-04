@@ -17,3 +17,9 @@ Run this command to compile the input.css to the output.css(also re-renders for 
 ```
 npm run watch
 ```
+
+Simple build is done using
+
+```
+npm run build
+```

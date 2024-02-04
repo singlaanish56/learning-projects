@@ -1018,6 +1018,10 @@ body{
   .card{
     display: flex;
   }
+
+  .card:nth-child(4){
+    display: none;
+  }
 }
 
 .hover\:bg-barelyOrangeRed:hover {
