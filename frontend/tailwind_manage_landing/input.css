@@ -98,9 +98,14 @@ body{
 .card{
     animation: cardfade;
     animation-duration: 1s;
-
 }
 
 .card.active-card{
     display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .card{
+        display: flex;
+    }
 }

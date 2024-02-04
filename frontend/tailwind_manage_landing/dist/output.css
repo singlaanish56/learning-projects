@@ -1014,6 +1014,12 @@ body{
   display: flex;
 }
 
+@media screen and (min-width: 768px) {
+  .card{
+    display: flex;
+  }
+}
+
 .hover\:bg-barelyOrangeRed:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
@@ -1103,6 +1109,11 @@ body{
 
   .md\:bg-transparent {
     background-color: transparent;
+  }
+
+  .md\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 
   .md\:py-1 {
