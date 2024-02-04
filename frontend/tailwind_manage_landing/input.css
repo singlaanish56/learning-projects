@@ -24,7 +24,15 @@ body{
     #cta{
         background-image: url(../img/bg-simplify-section-mobile.svg);
     }
+
+    .card{
+        display: none;
+        animation: cardfade;
+        animation-duration: 1s;
+    }
 }
+
+
 
 .hamburger{
     cursor: pointer;
@@ -68,4 +76,31 @@ body{
 
 .open .hamburger-bottom{
     transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+
+.dot{
+    cursor: pointer;
+    height:10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 2px solid orangeRed;
+    display: inline-block;
+    opacity: 0.6;
+}
+
+.active, .dot:hover{
+    background-color: orangered;
+    opacity: 1;
+}
+
+.card{
+    animation: cardfade;
+    animation-duration: 1s;
+
+}
+
+.card.active-card{
+    display: flex;
 }
