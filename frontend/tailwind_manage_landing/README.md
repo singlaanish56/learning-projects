@@ -23,3 +23,9 @@ Simple build is done using
 ```
 npm run build
 ```
+
+Link to Github Page Hosting
+
+```
+https://singlaanish56.github.io/learning-projects/frontend/tailwind_manage_landing/index.html
+```
